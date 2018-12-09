@@ -5,7 +5,7 @@
      By: tarchen <tarchen@student.42.fr>            +#+  +:+       +#+
                                                   +#+#+#+#+#+   +#+
      Created: 2018/11/25 11:42:28 by tarchen           #+#    #+#
-     Updated: 2018/11/25 18:17:37 by tarchen          ###   ########.fr
+     Updated: 2018/12/05 17:08:12 by tarchen          ###   ########.fr
 -->
 
 <!DOCTYPE html>
@@ -17,29 +17,41 @@
 	</head>
 	<body>
 		<div class="header">
-			<img id="img_day_of_the_42" src="./assets/day_of_the_42.png" alt="Day of the 42">
-			<img id="img_loupe" src="./assets/loupe.png" alt="loupe">
-			<img id="img_reload" src="./assets/reload.png" alt="reload">
-			<img id="img_close" src="./assets/close.gif" alt="close">
-		</div>
-		<div class="leftMenu">
-			<div class="border-oeil"></div>
-			<img id="img_arrow" src="./assets/arrow.png" alt="arrow">
-			<img id="img_main" src="./assets/main.png" alt="main">
-			<img id="img_oeil" src="./assets/oeil.png" alt="oeil">
-			<img id="img_outil" src="./assets/outil.png" alt="outil">
-			<img id="img_chat-icon" src="./assets/chat-icon.png" alt="chat-icon">
-		</div>
-		<div class="rightMenu">
-			<img id="img_book" src="./assets/book.png" alt="book">
-			<img id="img_towel" src="./assets/towel.png" alt="towel">
-			<div class="wall"></div>
-		</div>
-		<!-- <div class="content">
+			<img class="img_day_of_the_42" src="./assets/day_of_the_42.png" alt="Day of the 42">
+			<img class="img_loupe" src="./assets/loupe.png" alt="loupe">
 
-		</div> -->
-		<!-- <div class="chat">
-
-		</div> -->
+				<a href="http://www.disney.com"><img src="resources/reload.png" alt="" title="Recommencer au début" class="img_reload"></a>
+				<a href="http://www.relaischateaux.com" title="Déconnecter"><img src="resources/close.gif" alt="" class="img_close"></a>
+		</div>
+		<div class="main">
+			<div class="left">
+				<div class="border-oeil"></div>
+				<img class="img_arrow" title="Avancer" src="./assets/arrow.png" alt="arrow">
+				<img class="img_main" title="Prendre" src="./assets/main.png" alt="main">
+				<img class="img_oeil" title="Regarder" src="./assets/oeil.png" alt="oeil">
+				<img class="img_outil" title="Utiliser" src="./assets/outil.png" alt="outil">
+				<img class="img_chat-icon" title="Parler" src="./assets/chat-icon.png" alt="chat-icon">
+			</div>
+			<div class="right">
+				<img class="img_book" src="./assets/book.png" alt="book">
+				<img class="img_towel" src="./assets/towel.png" alt="towel">
+				<div class="wall" title="Brique"></div>
+			</div>
+			<div class="content">
+				<map name="Map" class="map">
+					<area alt="apple" title="" href="http://www.apple.com" shape="rect" coords="803,446,1006,325" />
+					<area alt="ikea" title="" href="http://www.ikea.com" title="" shape="rect" coords="323,327,475,561" />
+				</map>
+				<img class="cluster" src="./assets/cluster.jpg" alt="cluster 42" usemap=".map">
+			</div>
+		</div>
+		<div class="chat">
+			Vous <span class="entrez">entrez</span> alors dans une grande piece remplie d'<span class="ordi">ordinateurs</span>...
+			<br>
+			<span class="ital">- Bonjour, vous êtes nouveau ici ?</span>
+			<br>
+			<input type="" name="" value="">
+			<button type="button" name="">Repondre</button>
+		</div>
 	</body>
 </html>

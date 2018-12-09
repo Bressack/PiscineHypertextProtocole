@@ -1,0 +1,33 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   menu.css                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tarchen <tarchen@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/12/06 10:14:54 by tarchen           #+#    #+#             */
+/*   Updated: 2018/12/06 11:11:04 by tarchen          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+.menu {
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.name_menu_1 {
+	background-color: red;
+	width: 50%;
+	float: left;
+}
+
+.name_menu_2 {
+	background-color: blue;
+	width: 50%;
+	float: left;
+	left: 50%;
+}
+
+h1 {
+
+}
